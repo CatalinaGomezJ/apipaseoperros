@@ -17,7 +17,7 @@ public class ListaSEService {
 
         listaSE.adicionarNodo(new Empleado("Camilo", "1234567", 4000000));
         listaSE.adicionarNodo(new Empleado("Juan", "362864382", 2500000));
-        //listaSE.adicionarNodo(new Perro("Juan", "362864382", "labrador"));
+        listaSE.adicionarNodo(new Perro("Juan", "362864382", "labrador"));
         listaSE.adicionarNodoInicio(new Perro("Catalina","333333", "Daschund"));
 
     }
